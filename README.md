@@ -4,13 +4,12 @@
 
 ## 1. What are some differences between interfaces and types in TypeScript?
 Ans:
-``` 
 
 TypeScript-এ interface এবং type—দুটোই object-এর structure নির্ধারণ করতে ব্যবহৃত হয়। তবে কিছু মূল পার্থক্য রয়েছে যেগুলো জানা থাকলে কোন জায়গায় কোনটা ব্যবহার করতে হবে তা সহজ হয়ে যায়।
 
 প্রথমত, **interface declaration merging সাপোর্ট করে**, অর্থাৎ একই নামে একাধিক interface লিখলে TypeScript সেগুলোকে একত্র করে ফেলে। উদাহরণ:
 
-```
+
 ```ts
 interface A { x: string; }
 interface A { y: string; }
